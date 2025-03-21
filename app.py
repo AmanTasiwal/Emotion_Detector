@@ -5,8 +5,8 @@ import altair as alt
 import joblib
 
 # Load the trained model
-MODEL_PATH = "D:/Coding/cyfuture/svm_pipeline.joblib"  
-ENCODER_PATH = "D:/Coding/cyfuture/label_encoder.joblib"  # Label Encoder Path
+MODEL_PATH = "svm_pipeline.joblib"  
+ENCODER_PATH = "label_encoder.joblib"  # Label Encoder Path
 
 pipe_svm = joblib.load(MODEL_PATH)
 label_encoder = joblib.load(ENCODER_PATH)  # Load Label Encoder
